@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@600&display=swap');
+@import '../node_modules/normalize.css/normalize.css';
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+/* 通用樣式 */
+.text-end {
+  text-align: right;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-flexible {
+  flex: 1 1 0
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.btn-sm {
+  width: calc(33.33% - 10px);
+  max-width: 100px;
+}
+
+.btn-lg {
+  width: 100%;
+}
